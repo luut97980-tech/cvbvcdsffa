@@ -1,0 +1,57 @@
+{
+  "version": "2.33.2",
+  "build": "233430",
+  "inputs": {
+    "vng": {
+      "dump_file": "dumpvng.cs",
+      "dump_sha256": "e05827bfd4bdbb3830eab34c0ed4c36185c72840e82a52bbfe3ace4375a29a77",
+      "plist_file": "Info(2).plist",
+      "plist_sha256": "819c17d057b10549eaddfb86fed3ea2079a84d9f097764a97bcbeaaffdd5cdb1",
+      "bundle": "com.vng.playtogether",
+      "executable": "PLAYTOGETHERVNG",
+      "version": "2.33.2",
+      "build": "233430"
+    },
+    "global": {
+      "dump_file": "dumpqt.cs",
+      "dump_sha256": "c10ab6d6ecba4cba38b4a4f3d6f7414ffe57b1c93acf6ca1110ed665c3b75c6a",
+      "plist_file": "Info(3).plist",
+      "plist_sha256": "6e3567615a701857cbc13aead744dde09380d910b3998bcff6c5a9e5d6120f9e",
+      "bundle": "com.haegin.playtogether",
+      "executable": "PLAYTOGETHER",
+      "version": "2.33.2",
+      "build": "233430"
+    }
+  },
+  "dump_identical_to_previous": {
+    "vng": true,
+    "global": true
+  },
+  "field_bindings_checked": 82,
+  "unique_fields": 74,
+  "method_rva_entries_checked": 18,
+  "field_changes": [],
+  "rva_changes": [],
+  "native_binary_verified": true,
+  "native_profile_policy": "Exact supplied 2.33.2 framework UUID/SHA-256 and instruction guards",
+  "native_ios_build": false,
+  "device_tested": false,
+  "ui_fixes_preserved": true,
+  "native_profiles": {
+    "global": {
+      "uuid": "8e6eb96c64dc36ffa1463adcefcf3a71",
+      "sha256": "6af318ce2168f5270a9ca0e6214cac11fc8d248857274e5478bf43f65ae26f08",
+      "required_exports": 26,
+      "method_spans": 9,
+      "dynamic_spans": 50
+    },
+    "vng": {
+      "uuid": "18d923f390483a93ac51df7b15e956f7",
+      "sha256": "44ec1ef41e5ef820d18330a366873042ff1ba42fdb084a534caa4b1871118ce5",
+      "required_exports": 26,
+      "method_spans": 9,
+      "dynamic_spans": 50
+    }
+  },
+  "scope": "Dump/plist, static native inspection and portable tests; not iOS runtime validation"
+}

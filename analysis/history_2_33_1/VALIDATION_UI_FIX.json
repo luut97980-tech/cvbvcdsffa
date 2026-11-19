@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-16",
+  "variant": "no_speed",
+  "portable_tests": {
+    "mobile_ui": "passed",
+    "backend_api": "passed",
+    "app_metadata": "passed",
+    "native_profile": "passed",
+    "python_ipa": "....................\n----------------------------------------------------------------------\nRan 20 tests in 0.031s\n\nOK"
+  },
+  "repeated_suspend_preserves_switches": "passed",
+  "compiler": "g++ C++20, assertions enabled",
+  "native_ios_build": false,
+  "device_tested": false,
+  "keyboard_fix_device_verified": false,
+  "screenshot_protection": false,
+  "note": "CMake unavailable; portable targets compiled directly. UIKit lifecycle and keyboard behavior require iPhone validation."
+}

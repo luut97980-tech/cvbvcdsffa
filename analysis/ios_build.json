@@ -1,0 +1,44 @@
+{
+  "bundle": "com.vng.playtogether",
+  "version": "2.33.2",
+  "build": "233430",
+  "framework_uuid": "18d923f390483a93ac51df7b15e956f7",
+  "native_binary_verified": true,
+  "clients": {
+    "vng": {
+      "bundle": "com.vng.playtogether",
+      "executable": "PLAYTOGETHERVNG",
+      "version": "2.33.2",
+      "build": "233430",
+      "dump_sha256": "e05827bfd4bdbb3830eab34c0ed4c36185c72840e82a52bbfe3ace4375a29a77",
+      "plist_sha256": "819c17d057b10549eaddfb86fed3ea2079a84d9f097764a97bcbeaaffdd5cdb1",
+      "framework_uuid": "18d923f390483a93ac51df7b15e956f7",
+      "framework_sha256": "44ec1ef41e5ef820d18330a366873042ff1ba42fdb084a534caa4b1871118ce5",
+      "metadata_sha256": null,
+      "framework_size": 226837840,
+      "dump_file": "dumpvng.cs",
+      "plist_file": "Info(2).plist",
+      "native_binary_verified": true,
+      "native_profile_origin": "2.33.2",
+      "dump_identical_to_2_33_1": true
+    },
+    "global": {
+      "bundle": "com.haegin.playtogether",
+      "executable": "PLAYTOGETHER",
+      "version": "2.33.2",
+      "build": "233430",
+      "dump_sha256": "c10ab6d6ecba4cba38b4a4f3d6f7414ffe57b1c93acf6ca1110ed665c3b75c6a",
+      "plist_sha256": "6e3567615a701857cbc13aead744dde09380d910b3998bcff6c5a9e5d6120f9e",
+      "framework_uuid": "8e6eb96c64dc36ffa1463adcefcf3a71",
+      "framework_sha256": "6af318ce2168f5270a9ca0e6214cac11fc8d248857274e5478bf43f65ae26f08",
+      "metadata_sha256": null,
+      "framework_size": 229999280,
+      "dump_file": "dumpqt.cs",
+      "plist_file": "Info(3).plist",
+      "native_binary_verified": true,
+      "native_profile_origin": "2.33.2",
+      "dump_identical_to_2_33_1": true
+    }
+  },
+  "verification_scope": "Supplied ARM64 framework UUID/SHA-256, required/optional exports, selected instruction spans and getters. No iOS execution."
+}
